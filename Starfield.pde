@@ -1,4 +1,4 @@
-/* @pjs preload="/static/uploaded_resources/p.36143/ufo2.png"; */
+
 Starfield[]star = new Starfield[100];
 double x = 200;
 double y = 200;
@@ -79,7 +79,7 @@ class OddballStarfield extends Starfield
         mySpeed = 10;
         myAngle = 0;
         mySize = 0;
-        img = loadImage("/static/uploaded_resources/p.36143/ufo2.png");    
+        img = loadImage("ufo2.png");    
     }
     void show()
     {
