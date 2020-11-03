@@ -38,7 +38,6 @@ class Starfield
          myAngle = Math.random()*(2*Math.PI);
          mySpeed = Math.random()*5 + 1.5;
          random = (int)(Math.random()*3)-1;
-         //mySize = dist(200,200,myX,myY) / 28;
      }
      void show()
      {
@@ -133,3 +132,4 @@ class OddballStarfield extends Starfield
           }
     }
 }
+
